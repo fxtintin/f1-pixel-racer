@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Pixel Art Styles */
+@layer base {
+  * {
+    @apply border-pixel-border;
+  }
+
+  body {
+    @apply bg-pixel-bg text-pixel-text;
+    font-family: 'VT323', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-pixel-bg;
+    border: 2px solid #1e293b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-pixel-border;
+    border: 2px solid #0a0f1a;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-f1-red;
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-f1-red text-white;
+  }
+}
+
+@layer components {
+  /* Pixel Card */
+  .pixel-card {
+    @apply border-4 border-pixel-border bg-pixel-surface;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .pixel-card:hover {
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Pixel Button Base */
+  .pixel-btn {
+    @apply relative font-pixel transition-all;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .pixel-btn:hover {
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .pixel-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  /* CRT Effect Overlay */
+  .crt-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+      rgba(18, 16, 16, 0) 50%,
+      rgba(0, 0, 0, 0.1) 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* Scanline Animation */
+  .scanline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10px;
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(0, 217, 255, 0.1),
+      transparent
+    );
+    animation: scanline 8s linear infinite;
+    pointer-events: none;
+    z-index: 9998;
+  }
+
+  @keyframes scanline {
+    0% {
+      transform: translateY(-100vh);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+
+  /* Glow Effects */
+  .glow-red {
+    box-shadow: 0 0 20px rgba(225, 6, 0, 0.3);
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  }
+
+  /* Text Shadow for Pixel Fonts */
+  .text-shadow-pixel {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Grid Pattern */
+  .grid-pattern {
+    background-image: 
+      linear-gradient(rgba(30, 41, 59, 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(30, 41, 59, 0.5) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+
+@layer utilities {
+  /* Animation Delays */
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+
+  /* Pixel Border Styles */
+  .border-pixel-2 { border-width: 2px; }
+  .border-pixel-4 { border-width: 4px; }
+  .border-pixel-8 { border-width: 8px; }
+}

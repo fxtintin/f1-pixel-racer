@@ -1,0 +1,773 @@
+{
+  "missing": [
+    {
+      "team": "Red Bull Racing",
+      "team_id": "red_bull",
+      "year": "2022",
+      "expected": [
+        "red_bull-2022.png",
+        "red_bull.png"
+      ]
+    },
+    {
+      "team": "Red Bull Racing",
+      "team_id": "red_bull",
+      "year": "2023",
+      "expected": [
+        "red_bull-2023.png",
+        "red_bull.png"
+      ]
+    },
+    {
+      "team": "Red Bull Racing",
+      "team_id": "red_bull",
+      "year": "2024",
+      "expected": [
+        "red_bull-2024.png",
+        "red_bull.png"
+      ]
+    },
+    {
+      "team": "Red Bull Racing",
+      "team_id": "red_bull",
+      "year": "2025",
+      "expected": [
+        "red_bull-2025.png",
+        "red_bull.png"
+      ]
+    },
+    {
+      "team": "Ferrari",
+      "team_id": "ferrari",
+      "year": "2022",
+      "expected": [
+        "ferrari-2022.png",
+        "ferrari.png"
+      ]
+    },
+    {
+      "team": "Ferrari",
+      "team_id": "ferrari",
+      "year": "2023",
+      "expected": [
+        "ferrari-2023.png",
+        "ferrari.png"
+      ]
+    },
+    {
+      "team": "Ferrari",
+      "team_id": "ferrari",
+      "year": "2024",
+      "expected": [
+        "ferrari-2024.png",
+        "ferrari.png"
+      ]
+    },
+    {
+      "team": "Ferrari",
+      "team_id": "ferrari",
+      "year": "2025",
+      "expected": [
+        "ferrari-2025.png",
+        "ferrari.png"
+      ]
+    },
+    {
+      "team": "Mercedes",
+      "team_id": "mercedes",
+      "year": "2022",
+      "expected": [
+        "mercedes-2022.png",
+        "mercedes.png"
+      ]
+    },
+    {
+      "team": "Mercedes",
+      "team_id": "mercedes",
+      "year": "2023",
+      "expected": [
+        "mercedes-2023.png",
+        "mercedes.png"
+      ]
+    },
+    {
+      "team": "Mercedes",
+      "team_id": "mercedes",
+      "year": "2024",
+      "expected": [
+        "mercedes-2024.png",
+        "mercedes.png"
+      ]
+    },
+    {
+      "team": "Mercedes",
+      "team_id": "mercedes",
+      "year": "2025",
+      "expected": [
+        "mercedes-2025.png",
+        "mercedes.png"
+      ]
+    },
+    {
+      "team": "McLaren",
+      "team_id": "mclaren",
+      "year": "2022",
+      "expected": [
+        "mclaren-2022.png",
+        "mclaren.png"
+      ]
+    },
+    {
+      "team": "McLaren",
+      "team_id": "mclaren",
+      "year": "2023",
+      "expected": [
+        "mclaren-2023.png",
+        "mclaren.png"
+      ]
+    },
+    {
+      "team": "McLaren",
+      "team_id": "mclaren",
+      "year": "2024",
+      "expected": [
+        "mclaren-2024.png",
+        "mclaren.png"
+      ]
+    },
+    {
+      "team": "McLaren",
+      "team_id": "mclaren",
+      "year": "2025",
+      "expected": [
+        "mclaren-2025.png",
+        "mclaren.png"
+      ]
+    },
+    {
+      "team": "Aston Martin",
+      "team_id": "aston_martin",
+      "year": "2022",
+      "expected": [
+        "aston_martin-2022.png",
+        "aston_martin.png"
+      ]
+    },
+    {
+      "team": "Aston Martin",
+      "team_id": "aston_martin",
+      "year": "2023",
+      "expected": [
+        "aston_martin-2023.png",
+        "aston_martin.png"
+      ]
+    },
+    {
+      "team": "Aston Martin",
+      "team_id": "aston_martin",
+      "year": "2024",
+      "expected": [
+        "aston_martin-2024.png",
+        "aston_martin.png"
+      ]
+    },
+    {
+      "team": "Aston Martin",
+      "team_id": "aston_martin",
+      "year": "2025",
+      "expected": [
+        "aston_martin-2025.png",
+        "aston_martin.png"
+      ]
+    },
+    {
+      "team": "Alpine",
+      "team_id": "alpine",
+      "year": "2022",
+      "expected": [
+        "alpine-2022.png",
+        "alpine.png"
+      ]
+    },
+    {
+      "team": "Alpine",
+      "team_id": "alpine",
+      "year": "2023",
+      "expected": [
+        "alpine-2023.png",
+        "alpine.png"
+      ]
+    },
+    {
+      "team": "Alpine",
+      "team_id": "alpine",
+      "year": "2024",
+      "expected": [
+        "alpine-2024.png",
+        "alpine.png"
+      ]
+    },
+    {
+      "team": "Alpine",
+      "team_id": "alpine",
+      "year": "2025",
+      "expected": [
+        "alpine-2025.png",
+        "alpine.png"
+      ]
+    },
+    {
+      "team": "Williams",
+      "team_id": "williams",
+      "year": "2022",
+      "expected": [
+        "williams-2022.png",
+        "williams.png"
+      ]
+    },
+    {
+      "team": "Williams",
+      "team_id": "williams",
+      "year": "2023",
+      "expected": [
+        "williams-2023.png",
+        "williams.png"
+      ]
+    },
+    {
+      "team": "Williams",
+      "team_id": "williams",
+      "year": "2024",
+      "expected": [
+        "williams-2024.png",
+        "williams.png"
+      ]
+    },
+    {
+      "team": "Williams",
+      "team_id": "williams",
+      "year": "2025",
+      "expected": [
+        "williams-2025.png",
+        "williams.png"
+      ]
+    },
+    {
+      "team": "Racing Bulls / AlphaTauri",
+      "team_id": "rb",
+      "year": "2022",
+      "expected": [
+        "rb-2022.png",
+        "alphatauri-2022.png",
+        "racingbulls-2022.png",
+        "rb.png"
+      ]
+    },
+    {
+      "team": "Racing Bulls / AlphaTauri",
+      "team_id": "rb",
+      "year": "2023",
+      "expected": [
+        "rb-2023.png",
+        "alphatauri-2023.png",
+        "racingbulls-2023.png",
+        "rb.png"
+      ]
+    },
+    {
+      "team": "Racing Bulls / AlphaTauri",
+      "team_id": "rb",
+      "year": "2024",
+      "expected": [
+        "rb-2024.png",
+        "alphatauri-2024.png",
+        "racingbulls-2024.png",
+        "rb.png"
+      ]
+    },
+    {
+      "team": "Racing Bulls / AlphaTauri",
+      "team_id": "rb",
+      "year": "2025",
+      "expected": [
+        "rb-2025.png",
+        "alphatauri-2025.png",
+        "racingbulls-2025.png",
+        "rb.png"
+      ]
+    },
+    {
+      "team": "Kick Sauber / Alfa Romeo",
+      "team_id": "sauber",
+      "year": "2022",
+      "expected": [
+        "sauber-2022.png",
+        "alfaromeo-2022.png",
+        "kicksauber-2022.png",
+        "sauber.png"
+      ]
+    },
+    {
+      "team": "Kick Sauber / Alfa Romeo",
+      "team_id": "sauber",
+      "year": "2023",
+      "expected": [
+        "sauber-2023.png",
+        "alfaromeo-2023.png",
+        "kicksauber-2023.png",
+        "sauber.png"
+      ]
+    },
+    {
+      "team": "Kick Sauber / Alfa Romeo",
+      "team_id": "sauber",
+      "year": "2024",
+      "expected": [
+        "sauber-2024.png",
+        "alfaromeo-2024.png",
+        "kicksauber-2024.png",
+        "sauber.png"
+      ]
+    },
+    {
+      "team": "Kick Sauber / Alfa Romeo",
+      "team_id": "sauber",
+      "year": "2025",
+      "expected": [
+        "sauber-2025.png",
+        "alfaromeo-2025.png",
+        "kicksauber-2025.png",
+        "sauber.png"
+      ]
+    },
+    {
+      "team": "Haas F1 Team",
+      "team_id": "haas",
+      "year": "2022",
+      "expected": [
+        "haas-2022.png",
+        "haas.png"
+      ]
+    },
+    {
+      "team": "Haas F1 Team",
+      "team_id": "haas",
+      "year": "2023",
+      "expected": [
+        "haas-2023.png",
+        "haas.png"
+      ]
+    },
+    {
+      "team": "Haas F1 Team",
+      "team_id": "haas",
+      "year": "2024",
+      "expected": [
+        "haas-2024.png",
+        "haas.png"
+      ]
+    },
+    {
+      "team": "Haas F1 Team",
+      "team_id": "haas",
+      "year": "2025",
+      "expected": [
+        "haas-2025.png",
+        "haas.png"
+      ]
+    }
+  ],
+  "by_year": {
+    "2022": [
+      {
+        "team": "Red Bull Racing",
+        "team_id": "red_bull",
+        "year": "2022",
+        "expected": [
+          "red_bull-2022.png",
+          "red_bull.png"
+        ]
+      },
+      {
+        "team": "Ferrari",
+        "team_id": "ferrari",
+        "year": "2022",
+        "expected": [
+          "ferrari-2022.png",
+          "ferrari.png"
+        ]
+      },
+      {
+        "team": "Mercedes",
+        "team_id": "mercedes",
+        "year": "2022",
+        "expected": [
+          "mercedes-2022.png",
+          "mercedes.png"
+        ]
+      },
+      {
+        "team": "McLaren",
+        "team_id": "mclaren",
+        "year": "2022",
+        "expected": [
+          "mclaren-2022.png",
+          "mclaren.png"
+        ]
+      },
+      {
+        "team": "Aston Martin",
+        "team_id": "aston_martin",
+        "year": "2022",
+        "expected": [
+          "aston_martin-2022.png",
+          "aston_martin.png"
+        ]
+      },
+      {
+        "team": "Alpine",
+        "team_id": "alpine",
+        "year": "2022",
+        "expected": [
+          "alpine-2022.png",
+          "alpine.png"
+        ]
+      },
+      {
+        "team": "Williams",
+        "team_id": "williams",
+        "year": "2022",
+        "expected": [
+          "williams-2022.png",
+          "williams.png"
+        ]
+      },
+      {
+        "team": "Racing Bulls / AlphaTauri",
+        "team_id": "rb",
+        "year": "2022",
+        "expected": [
+          "rb-2022.png",
+          "alphatauri-2022.png",
+          "racingbulls-2022.png",
+          "rb.png"
+        ]
+      },
+      {
+        "team": "Kick Sauber / Alfa Romeo",
+        "team_id": "sauber",
+        "year": "2022",
+        "expected": [
+          "sauber-2022.png",
+          "alfaromeo-2022.png",
+          "kicksauber-2022.png",
+          "sauber.png"
+        ]
+      },
+      {
+        "team": "Haas F1 Team",
+        "team_id": "haas",
+        "year": "2022",
+        "expected": [
+          "haas-2022.png",
+          "haas.png"
+        ]
+      }
+    ],
+    "2023": [
+      {
+        "team": "Red Bull Racing",
+        "team_id": "red_bull",
+        "year": "2023",
+        "expected": [
+          "red_bull-2023.png",
+          "red_bull.png"
+        ]
+      },
+      {
+        "team": "Ferrari",
+        "team_id": "ferrari",
+        "year": "2023",
+        "expected": [
+          "ferrari-2023.png",
+          "ferrari.png"
+        ]
+      },
+      {
+        "team": "Mercedes",
+        "team_id": "mercedes",
+        "year": "2023",
+        "expected": [
+          "mercedes-2023.png",
+          "mercedes.png"
+        ]
+      },
+      {
+        "team": "McLaren",
+        "team_id": "mclaren",
+        "year": "2023",
+        "expected": [
+          "mclaren-2023.png",
+          "mclaren.png"
+        ]
+      },
+      {
+        "team": "Aston Martin",
+        "team_id": "aston_martin",
+        "year": "2023",
+        "expected": [
+          "aston_martin-2023.png",
+          "aston_martin.png"
+        ]
+      },
+      {
+        "team": "Alpine",
+        "team_id": "alpine",
+        "year": "2023",
+        "expected": [
+          "alpine-2023.png",
+          "alpine.png"
+        ]
+      },
+      {
+        "team": "Williams",
+        "team_id": "williams",
+        "year": "2023",
+        "expected": [
+          "williams-2023.png",
+          "williams.png"
+        ]
+      },
+      {
+        "team": "Racing Bulls / AlphaTauri",
+        "team_id": "rb",
+        "year": "2023",
+        "expected": [
+          "rb-2023.png",
+          "alphatauri-2023.png",
+          "racingbulls-2023.png",
+          "rb.png"
+        ]
+      },
+      {
+        "team": "Kick Sauber / Alfa Romeo",
+        "team_id": "sauber",
+        "year": "2023",
+        "expected": [
+          "sauber-2023.png",
+          "alfaromeo-2023.png",
+          "kicksauber-2023.png",
+          "sauber.png"
+        ]
+      },
+      {
+        "team": "Haas F1 Team",
+        "team_id": "haas",
+        "year": "2023",
+        "expected": [
+          "haas-2023.png",
+          "haas.png"
+        ]
+      }
+    ],
+    "2024": [
+      {
+        "team": "Red Bull Racing",
+        "team_id": "red_bull",
+        "year": "2024",
+        "expected": [
+          "red_bull-2024.png",
+          "red_bull.png"
+        ]
+      },
+      {
+        "team": "Ferrari",
+        "team_id": "ferrari",
+        "year": "2024",
+        "expected": [
+          "ferrari-2024.png",
+          "ferrari.png"
+        ]
+      },
+      {
+        "team": "Mercedes",
+        "team_id": "mercedes",
+        "year": "2024",
+        "expected": [
+          "mercedes-2024.png",
+          "mercedes.png"
+        ]
+      },
+      {
+        "team": "McLaren",
+        "team_id": "mclaren",
+        "year": "2024",
+        "expected": [
+          "mclaren-2024.png",
+          "mclaren.png"
+        ]
+      },
+      {
+        "team": "Aston Martin",
+        "team_id": "aston_martin",
+        "year": "2024",
+        "expected": [
+          "aston_martin-2024.png",
+          "aston_martin.png"
+        ]
+      },
+      {
+        "team": "Alpine",
+        "team_id": "alpine",
+        "year": "2024",
+        "expected": [
+          "alpine-2024.png",
+          "alpine.png"
+        ]
+      },
+      {
+        "team": "Williams",
+        "team_id": "williams",
+        "year": "2024",
+        "expected": [
+          "williams-2024.png",
+          "williams.png"
+        ]
+      },
+      {
+        "team": "Racing Bulls / AlphaTauri",
+        "team_id": "rb",
+        "year": "2024",
+        "expected": [
+          "rb-2024.png",
+          "alphatauri-2024.png",
+          "racingbulls-2024.png",
+          "rb.png"
+        ]
+      },
+      {
+        "team": "Kick Sauber / Alfa Romeo",
+        "team_id": "sauber",
+        "year": "2024",
+        "expected": [
+          "sauber-2024.png",
+          "alfaromeo-2024.png",
+          "kicksauber-2024.png",
+          "sauber.png"
+        ]
+      },
+      {
+        "team": "Haas F1 Team",
+        "team_id": "haas",
+        "year": "2024",
+        "expected": [
+          "haas-2024.png",
+          "haas.png"
+        ]
+      }
+    ],
+    "2025": [
+      {
+        "team": "Red Bull Racing",
+        "team_id": "red_bull",
+        "year": "2025",
+        "expected": [
+          "red_bull-2025.png",
+          "red_bull.png"
+        ]
+      },
+      {
+        "team": "Ferrari",
+        "team_id": "ferrari",
+        "year": "2025",
+        "expected": [
+          "ferrari-2025.png",
+          "ferrari.png"
+        ]
+      },
+      {
+        "team": "Mercedes",
+        "team_id": "mercedes",
+        "year": "2025",
+        "expected": [
+          "mercedes-2025.png",
+          "mercedes.png"
+        ]
+      },
+      {
+        "team": "McLaren",
+        "team_id": "mclaren",
+        "year": "2025",
+        "expected": [
+          "mclaren-2025.png",
+          "mclaren.png"
+        ]
+      },
+      {
+        "team": "Aston Martin",
+        "team_id": "aston_martin",
+        "year": "2025",
+        "expected": [
+          "aston_martin-2025.png",
+          "aston_martin.png"
+        ]
+      },
+      {
+        "team": "Alpine",
+        "team_id": "alpine",
+        "year": "2025",
+        "expected": [
+          "alpine-2025.png",
+          "alpine.png"
+        ]
+      },
+      {
+        "team": "Williams",
+        "team_id": "williams",
+        "year": "2025",
+        "expected": [
+          "williams-2025.png",
+          "williams.png"
+        ]
+      },
+      {
+        "team": "Racing Bulls / AlphaTauri",
+        "team_id": "rb",
+        "year": "2025",
+        "expected": [
+          "rb-2025.png",
+          "alphatauri-2025.png",
+          "racingbulls-2025.png",
+          "rb.png"
+        ]
+      },
+      {
+        "team": "Kick Sauber / Alfa Romeo",
+        "team_id": "sauber",
+        "year": "2025",
+        "expected": [
+          "sauber-2025.png",
+          "alfaromeo-2025.png",
+          "kicksauber-2025.png",
+          "sauber.png"
+        ]
+      },
+      {
+        "team": "Haas F1 Team",
+        "team_id": "haas",
+        "year": "2025",
+        "expected": [
+          "haas-2025.png",
+          "haas.png"
+        ]
+      }
+    ]
+  },
+  "total_missing": 40,
+  "notes": {
+    "recommended_format": "PNG with transparent background",
+    "recommended_size": "800x400 pixels or similar aspect ratio",
+    "naming_convention": "team-year.png (e.g., redbull-2024.png)",
+    "save_location": "teams\\cars"
+  }
+}
