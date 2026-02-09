@@ -214,39 +214,42 @@ function HeroSection() {
           </motion.div>
         </div>
 
-        {/* Animated Car */}
+        {/* Animated Car - Red Bull Style */}
         <motion.div
-          className="relative h-24 w-48"
+          className="relative h-28 w-56"
           animate={{ x: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         >
           <svg
-            viewBox="0 0 120 60"
+            viewBox="0 0 512 512"
             className="h-full w-full"
             fill="none"
           >
-            {/* Car Body */}
-            <rect x="20" y="25" width="70" height="15" fill="#e10600" />
-            <rect x="10" y="30" width="15" height="8" fill="#e10600" />
-            <rect x="90" y="28" width="20" height="10" fill="#e10600" />
+            {/* Main Body - Red Bull Dark Blue */}
+            <path fill="#1e3a8a" d="M355.975 292.25a24.82 24.82 0 1 0 24.82-24.81 24.84 24.84 0 0 0-24.82 24.81zm-253-24.81a24.81 24.81 0 1 1-24.82 24.81 24.84 24.84 0 0 1 24.81-24.81zm-76.67-71.52h67.25l-13.61 49.28 92-50.28h57.36l1.26 34.68 32 14.76 11.74-14.44h15.62l3.16 16c137.56-13 192.61 29.17 192.61 29.17s-7.52 5-25.93 8.39c-3.88 3.31-3.66 14.44-3.66 14.44h24.2v16h-52v-27.48c-1.84.07-4.45.41-7.06.47a40.81 40.81 0 1 0-77.25 23h-204.24a40.81 40.81 0 1 0-77.61-17.67c0 1.24.06 2.46.17 3.67h-36z"/>
+            {/* Red Bull Accent - Yellow/Red Highlight */}
+            <path fill="#fbbf24" d="M102.975 215.92l15-5 5 10-20-5z"/>
+            <path fill="#dc2626" d="M380.975 230l25 5-5 10-20-15z"/>
             {/* Wheels */}
-            <rect x="25" y="38" width="12" height="8" fill="#334155" />
-            <rect x="75" y="38" width="12" height="8" fill="#334155" />
-            {/* Driver */}
-            <rect x="85" y="18" width="8" height="8" fill="#00d9ff" />
-            {/* Spoiler */}
-            <rect x="15" y="20" width="5" height="15" fill="#8b0000" />
-            <rect x="10" y="20" width="15" height="3" fill="#8b0000" />
+            <circle cx="102.975" cy="292.25" r="18" fill="#1f2937"/>
+            <circle cx="102.975" cy="292.25" r="8" fill="#dc2626"/>
+            <circle cx="380.975" cy="292.25" r="18" fill="#1f2937"/>
+            <circle cx="380.975" cy="292.25" r="8" fill="#dc2626"/>
             {/* Speed Lines */}
             <motion.rect
-              x="0" y="32" width="10" height="2" fill="#00d9ff"
-              animate={{ opacity: [0, 1, 0], x: [-5, -10] }}
-              transition={{ duration: 0.5, repeat: Infinity }}
+              x="20" y="240" width="40" height="4" fill="#fbbf24"
+              animate={{ opacity: [0, 1, 0], x: [-20, -40] }}
+              transition={{ duration: 0.4, repeat: Infinity }}
             />
             <motion.rect
-              x="5" y="38" width="8" height="2" fill="#00d9ff"
-              animate={{ opacity: [0, 1, 0], x: [-5, -10] }}
-              transition={{ duration: 0.5, repeat: Infinity, delay: 0.25 }}
+              x="30" y="260" width="30" height="3" fill="#fbbf24"
+              animate={{ opacity: [0, 1, 0], x: [-15, -35] }}
+              transition={{ duration: 0.4, repeat: Infinity, delay: 0.2 }}
+            />
+            <motion.rect
+              x="10" y="280" width="35" height="3" fill="#fbbf24"
+              animate={{ opacity: [0, 1, 0], x: [-20, -40] }}
+              transition={{ duration: 0.4, repeat: Infinity, delay: 0.1 }}
             />
           </svg>
         </motion.div>
