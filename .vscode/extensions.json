@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dsznajder.es7-react-js-snippets",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "ms-vscode.vscode-typescript-next",
+    "formulahendry.auto-rename-tag",
+    "pkief.material-icon-theme",
+    "zhuangtongfa.material-theme"
+  ]
+}
